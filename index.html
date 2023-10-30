@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="CNPM/style/Lua_chon_1.css" />
+   
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap"
+    />
+  </head>
+  <body>
+ <style>
+   sinh-vin{
+    font-size: 100px;
+   } 
+ </style>
+
+    <div class="m4">
+      <div class="rectangle-parent">
+        <div class="frame-child"></div>
+        <div class="frame-item"></div>
+        <div class="la-chn">VÀO GIAO DIỆN</div>
+        <div class="frame-inner"></div>
+        <div class="rectangle-div"></div>
+        <ul>
+        <li><a href="CNPM/Dang_nhap.html" class="sinh-vin" id="sinhVinText">Bấm để vào giao diện</a></li>
+        
+      </ul>
+        <div class="ellipse-div"></div>
+        <div class="frame-child1"></div>
+      </div>
+    </div>
+
+    <script>
+      var sinhVinText = document.getElementById("sinhVinText");
+      if (sinhVinText) {
+        sinhVinText.addEventListener("click", function (e) {
+          // Please sync "M4.1(Sinh Viên)" to the project
+        });
+      }
+      
+      var hcSinhText = document.getElementById("hcSinhText");
+      if (hcSinhText) {
+        hcSinhText.addEventListener("click", function (e) {
+          // Please sync "M4.2(Học Sinh)" to the project
+        });
+      }
+      </script>
+  </body>
+</html>
